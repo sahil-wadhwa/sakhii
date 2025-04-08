@@ -14,7 +14,7 @@ export default function Navbar(){
     const buttons=[
         {
             name:'Doctors',
-            link:'',
+            link:'/doctors',
         },
         {
             name:'Education',
@@ -50,8 +50,8 @@ export default function Navbar(){
                     )
                 })}
                 </div>
-                <div className="w-[10vw] h-[5vh] bg-black text-white font-merriweather hover:bg-transparent hover:border hover:border-black hover:text-black text-center duration-300 rounded-2xl self-center flex justify-center items-center cursor-pointer">Login</div>
-                <div className="w-[10vw] h-[5vh] bg-trasparent font-merriweather text-black border-2 border-black hover:bg-black text-center duration-300 hover:text-white rounded-2xl self-center flex justify-center items-center cursor-pointer">Register</div>
+                <div className="w-[10vw] h-[5vh] bg-black text-white font-merriweather hover:bg-transparent hover:border hover:border-black hover:text-black text-center duration-300 rounded-2xl self-center flex justify-center items-center cursor-pointer"><a href="/login">Login</a></div>
+                <div className="w-[10vw] h-[5vh] bg-trasparent font-merriweather text-black border-2 border-black hover:bg-black text-center duration-300 hover:text-white rounded-2xl self-center flex justify-center items-center cursor-pointer"><a href="/signup">Register</a></div>
             </div>
         </div>
         </div>
